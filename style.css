@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    flex-wrap: wrap;
+
+}
+
+body{
+    background-color: black;
+}
+header > nav {
+    background-color: black;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+
+header > nav > h1{
+    color: white;
+    font-size: 43px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header > nav > h1 > span{
+    color: rgb(153, 255, 0) ;
+}
+.menu-intro{
+    display: flex;
+border-right: 2px solid rgb(53, 49, 49);
+padding: 20px;
+padding-right:45px;
+margin-left: 20%;
+}
+.menu-intro > li {list-style: none;}
+
+.menu-intro > li > a{
+color:rgb(124, 132, 124);
+font-weight: 700;
+    margin-left: 50px;
+    text-decoration: none;
+  font-size: 23px;
+ 
+}
+
+.menu-intro > li > a:hover{
+   border-bottom: 2px solid rgba(42, 168, 20, 0.607) ;
+color: rgb(14, 205, 14);
+    
+    
+    transition: 1.5s;
+}
+
+
+.menu-login{
+    display: flex;
+    margin-right: -1%;
+}
+
+.menu-login > li > a{
+    padding: 17px 50px ;
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    border-radius: 10px;
+    margin: 10px;
+    
+   
+} 
+
+.menu-login > li > a:hover{
+    color: rgb(31, 211, 31);
+}
+
+.menu-login > .codar > a{
+    border: 2px solid rgb(14, 205, 14);
+    padding: 17px 50px ;
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+
+
+#apresentacao  {
+    color: rgb(255, 255, 255);
+    width: 100%;
+  background-color: rgba(209, 191, 191, 0.174);
+    text-align: center;
+    padding: 20px;
+  
+}
+
+#apresentacao >   p{
+    font-size: 36px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+

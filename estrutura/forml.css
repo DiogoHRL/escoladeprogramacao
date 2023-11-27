@@ -6,7 +6,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-.jpg);
+    /*  background-image: url(web-development-application-design-coding-and-programming-on-laptop-and-smartphone-concept-with-programming-language-and-.jpg);*/
+  
     background-color: black;
 }
 
@@ -16,7 +17,7 @@ header{
 }
 
 .titulo{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0%;
@@ -29,12 +30,12 @@ header{
 #sessa1{
   
     padding: 90px;
-    border: 15px solid rgba(255, 255, 255, 0.653);
+    border: 15px solid rgba(60, 255, 0, 0.653);
     width: 19vw;
     margin-left: 35%;
     margin-top: 2%;
     border-radius: 30px;
-    background-color: rgba(114, 114, 114, 0.557);
+    background-color: rgba(114, 114, 114, 0.135);
 }
 .titulo-cadastro{
     color: rgb(183, 233, 244);
@@ -54,14 +55,15 @@ width: 100%;
 
 
 .formu > div > input{
+    color: white;
     background-color: rgba(0, 0, 0, 0);
     width: 25vw;
     font-weight: 450;
-   text-align: center;
+   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 21px;
     height: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgba(255, 255, 255, 0.653);
 }
 
 .formu > div > input:hover{
@@ -69,14 +71,16 @@ width: 100%;
 }
 
 #sessa1> .botao1{
- margin-left: 1%;
+ margin-left: 10%;
  margin-top: 7%;
-    background-color: rgb(43, 15, 228);
-    border: 1px solid white;
+    background-color:  rgba(60, 255, 0, 0.653);
+    border: 2px solid white;
     color: white;
-    width: 100%;
-    height: 59px;
-    border-radius: 10px;
+    width: 80%;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #sessa1> .botao1:hover{
@@ -96,7 +100,7 @@ width: 100%;
 
 #sessa1 > .cadastrar > a{
 
-    color: rgb(0, 0, 0);
+    color: rgb(185, 185, 185);
 font-size: 18px;
 font-weight: 400;
 margin-top: 6%;
